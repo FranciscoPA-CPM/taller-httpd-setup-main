@@ -204,6 +204,7 @@ spec:
   tasks:
     - name: fetch-source
       taskRef:
+        kind: ClusterTask
         name: git-clone
       workspaces:
         - name: output
@@ -234,6 +235,7 @@ spec:
     
     - name: build-image
       taskRef:
+        kind: ClusterTask
         name: buildah
       runAfter:
         - check-image
