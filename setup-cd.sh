@@ -3,7 +3,7 @@
 # --- Configuration Variables ---
 APP_NAMESPACE=cicd-francisco
 ARGO_NAMESPACE=argocd-taller
-GITHUB_CONFIG_REPO=https://github.com/jovemfelix/taller-httpd-release-engineering-main.git
+GITHUB_CONFIG_REPO=https://github.com/FranciscoPA-CPM/taller-httpd-release-engineering-main.git
 APP_UID='httpd-demo-francisco' 
 
 # --- Project Configuration ---
