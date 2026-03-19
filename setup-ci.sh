@@ -17,8 +17,10 @@ else
 fi
 
 # --- Install Tekton Tasks ---
-oc apply -f https://github.com/FranciscoPA-CPM/Build-francisco/blob/main/git-clone.yaml
-oc apply -f https://github.com/FranciscoPA-CPM/Build-francisco/blob/main/buildah.yaml
+# oc apply -f https://raw.githubusercontent.com/FranciscoPA-CPM/Build-francisco/main/git-clone.yaml
+# oc apply -f https://raw.githubusercontent.com/FranciscoPA-CPM/Build-francisco/main/buildah.yaml
+oc apply -f git-clone.yaml
+oc apply -f buildah.yaml
 
 # --- Credentials ---
 cat <<EOF | oc apply -f -
