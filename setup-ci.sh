@@ -7,7 +7,7 @@ GITHUB_TOKEN=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
 GITHUB_SOURCE_REPO=https://github.com/FranciscoPA-CPM/taller-httpd-application-engineering-main.git
 GITHUB_CONFIG_REPO=https://github.com/FranciscoPA-CPM/taller-httpd-release-engineering-main.git
 APP_NEW_IMAGE_TAG='1.0.1'
-APP_IMAGE_NAME='httpd-demo' 
+APP_IMAGE_NAME='httpd-demo-francisco' 
 
 # --- Project Setup ---
 if ! oc get project "$NAMESPACE" &> /dev/null; then
