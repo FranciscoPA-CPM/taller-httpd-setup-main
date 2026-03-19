@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # --- Configuration Variables ---
-APP_NAMESPACE=cicd-tu-nombre
+APP_NAMESPACE=cicd-francisco
 ARGO_NAMESPACE=argocd-taller
-GITHUB_CONFIG_REPO=https://github.com/jovemfelix/taller-httpd-release-engineering.git
-APP_UID='httpd-demo-renato' 
+GITHUB_CONFIG_REPO=https://github.com/jovemfelix/taller-httpd-release-engineering-main.git
+APP_UID='httpd-demo-francisco' 
 
 # --- Project Configuration ---
 oc label namespace $APP_NAMESPACE argocd.argoproj.io/managed-by=argocd-taller --overwrite
